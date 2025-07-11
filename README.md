@@ -229,6 +229,14 @@ $ fisher install blackjid/plugin-kubectl
 | kdds         | `kubectl describe ds`                                |
 | kdelds       | `kubectl delete ds`                                  |
 
+### Events management.
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kge         | `kubectl get events`                                     |
+| kgea        | `kubectl get events --all-namespaces`                    |
+| kgew        | `kubectl get events --watch`                             |
+
 # Credits
 
 This was shamelessly based on on the [fish git plugin](fish-git) from [James Hillyerd](fish-git-author)
